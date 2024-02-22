@@ -1,8 +1,10 @@
 package org.example;
 
+import static org.example.Constant.DERIVED_DATA;
+
 public class Main {
     public void addData(String data){
-        if(data.equals("self learning")){
+        if(data.equals(DERIVED_DATA)){
             System.out.println("Welcome");
         }
         System.out.println("data - "+data);
