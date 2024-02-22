@@ -2,6 +2,9 @@ package org.example;
 
 public class Main {
     public void addData(String data){
+        if(data.equals("self learning")){
+            System.out.println("Welcome");
+        }
         System.out.println("data - "+data);
     }
 
